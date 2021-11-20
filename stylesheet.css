@@ -182,6 +182,11 @@ header {
     box-shadow: none;
 }
 
+.struktur img{
+    width:75%; 
+    padding: 4px;
+}
+
 footer img {
     width: 125px;
 }
