@@ -9,10 +9,10 @@
 </head>
 <body>
     <div class="row">
-        <div class="col-2" style="background-color: aqua;"></div>
+        <div class="col-sm-1"></div>
 
-        <div class="col-8">
-            <h2 style="font-weight: normal; text-align: center; font-family: serif;">PENDAFTARAN ANGGOTA BEM UHAMKA</h2>
+        <div class="col-sm-11">
+            <h4 style="font-weight: normal; text-align: left; font-family: serif; width: 100%; height: auto; padding-left: 5px;">PENDAFTARAN ANGGOTA BEM UHAMKA</h4>
             <form>
                 <table>
                     <tr>
@@ -24,11 +24,11 @@
                     </tr>
 
                     <tr>
-                        <td>Nomor Telepon</td><td><input type="text" id="phone" name="phone" pattern="[0-9]{12}" required placeholder="contoh: 085122223333" class="form-control form-control-sm"></td>
+                        <td>Nomor Telepon</td><td><input type="text" id="phone" name="phone" pattern="[0-9]{12}" required placeholder="085122223333" class="form-control form-control-sm"></td>
                     </tr>
 
                     <tr>
-                        <td>Email</td><td><input type="email" id="email" name="email" required placeholder="contoh: abidfajar132@gmail.com" class="form-control form-control-sm"></td>
+                        <td>Email</td><td><input type="email" id="email" name="email" required placeholder="abidfajar132@gmail.com" class="form-control form-control-sm"></td>
                     </tr>
 
                     <tr>
@@ -36,7 +36,7 @@
                     </tr>
 
                     <tr>
-                        <td>Tanggal Lahir</td><td><input type="date" id="date" name="date"></td>
+                        <td>Tanggal Lahir</td><td><input type="date" id="date" name="date" class="form-control form-control-sm"></td>
                     </tr>
 
                     <tr>
@@ -52,7 +52,7 @@
                     <tr>
                         <td>Fakultas</td>
                         <td>
-                            <select name="pendidikan" id="pendidikan" class="form-select" style="width:400px;">
+                            <select name="pendidikan" id="pendidikan" class="form-select">
                                 <option value="FAI">Fakultas Agama Islam (FAI)</option>
                                 <option value="FFS">Fakultas Farmasi dan Sains (FFS)</option>
                                 <option value="FEB">Fakultas Ekonomi dan Bisnis (FEB)</option>
@@ -70,20 +70,13 @@
                         <td>Upload KTM</td> <td><input type="file"></td>
                     </tr>
 
-                    <tr>
-                        <td align="left" valign="top">Komentar dan saran</td>
-                        <th rowspan="3">
-                        <textarea rows="8" cols="90" id="title" name="title"></textarea>
-                        </th>
-                    </tr>
+                    
 
                 </table>
-
-                <input type="submit" value="submit" class="btn btn-success btn-lg" style="width:200px; margin-left: 600px;">
+                <br>
+                <input type="submit" value="submit" class="btn btn-success btn-lg" style="width:100px; font-family: serif;">
             </form>
         </div>
-
-        <div class="col-2" style="background-color: aqua;"></div>
     </div>
 </body>
 </html>
