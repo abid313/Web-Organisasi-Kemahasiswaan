@@ -21,3 +21,7 @@ Sumber:
 - youtube
 - bootstrap
 - google
+- font-awesome
+
+PERINGATAN:
+Untuk membuka website direkomendasikan saat terhubung ke internet, karena untuk beberapa font dan icon hanya bisa menggunakan lewat link dan tidak bisa di download source codenya. Jadi, jika tidak tersambung dengan internet maka kemungkinan tampilan websitenya akan kurang atau jelek.
