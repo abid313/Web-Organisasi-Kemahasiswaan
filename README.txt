@@ -23,5 +23,9 @@ Sumber:
 - google
 - font-awesome
 
+link repositorie di github:
+https://github.com/abid313/Web-Organisasi-Kemahasiswaan
+
+
 PERINGATAN:
 Untuk membuka website direkomendasikan saat terhubung ke internet, karena untuk beberapa font dan icon hanya bisa menggunakan lewat link dan tidak bisa di download source codenya. Jadi, jika tidak tersambung dengan internet maka kemungkinan tampilan websitenya akan kurang atau jelek.
